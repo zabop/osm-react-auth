@@ -9,7 +9,7 @@ if (!window.osmAuth) {
 const auth = window.osmAuth.osmAuth({
   client_id: "Wir5rj5vBQYnzvu62Si2GimI-MMf8OuRMlqvmNiSQGk",
   scope: "read_prefs",
-  redirect_uri: "http://127.0.0.1:5173/land.html",
+  redirect_uri: "http://127.0.0.1:5173/osm-react-auth/land.html",
   singlepage: false,
 });
 
