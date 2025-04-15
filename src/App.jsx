@@ -1,11 +1,5 @@
 import React, { useState, useEffect } from "react";
 
-// Ensure that window.osmAuth exists and initialize auth outside the component
-if (!window.osmAuth) {
-  console.error(
-    "osmAuth library not found. Make sure it is loaded in index.html."
-  );
-}
 const auth = window.osmAuth.osmAuth({
   client_id: "Wir5rj5vBQYnzvu62Si2GimI-MMf8OuRMlqvmNiSQGk",
   scope: "read_prefs",
