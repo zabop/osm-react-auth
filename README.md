@@ -1,3 +1,5 @@
-Check on http://127.0.0.1:5173/, NOT on localhost.
+Check on http://127.0.0.1:5173, NOT on localhost.
 
-npm run dev
+Run via:
+
+    npm run dev -- --host 127.0.0.1
