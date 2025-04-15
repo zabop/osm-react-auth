@@ -7,7 +7,7 @@ if (!window.osmAuth) {
   );
 }
 const auth = window.osmAuth.osmAuth({
-  client_id: "Cah_QEsDxE8gjV8EGntqwBk3ucxf2nni6DMm_ubG724",
+  client_id: "Wir5rj5vBQYnzvu62Si2GimI-MMf8OuRMlqvmNiSQGk",
   scope: "read_prefs",
   redirect_uri: "http://127.0.0.1:5173/land.html",
   singlepage: false,
