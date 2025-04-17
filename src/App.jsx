@@ -62,7 +62,7 @@ export default function App() {
       <button onClick={handleLogin}>Login</button>
       <button onClick={handleLogout}>Logout</button>
 
-      {error && <div style={{ color: "red" }}>{error}</div>}
+      {error && <div>{error}</div>}
 
       {user && (
         <div>
