@@ -62,15 +62,9 @@ export default function App() {
       <button onClick={handleLogin}>Login</button>
       <button onClick={handleLogout}>Logout</button>
 
-      {error && <div>{error}</div>}
+      {error && <> {error} </>}
 
-      {user && (
-        <div>
-          <h1>{user.name}</h1>
-          <p>User ID: {user.id}</p>
-          <p>Changesets: {user.count}</p>
-        </div>
-      )}
+      {user && <> Authenticated: {user.name} </>}
     </div>
   );
 }
